@@ -1,6 +1,7 @@
 # Linux-and-me
 
 awk, sed, grep, egrep, fgrep --> Text processing/searching commands
+
 grep: searches a specific term in a file
 awk and sed are text processors i.e. they can perform operations such as "replace","update" etc.
 awk is mostly used for data extraction where sed is a stream editor
@@ -16,15 +17,22 @@ whereas "sed" is prominently used for simple tasks like using regex
 
 ##### COMMON OPERATIONS #####
 
+| Commands | Description |
+| --- | ---|
+| `fmt` | text formatter |
+| `tr` | translate characters |
+| `nl` | number of lines in a file |
+| `wc` | word count |
+
 sort, uniq, cut 
-
-echo, fmt, tr, nl, , wc
-* fmt: text formatter
-* tr: translate
-* nl : number of lines in a file
-* wc : word count
-
+ 
 ##### PROCESS COMMANDS #####
+| Commands | Description |
+| --- | ---|
+| `ps` | report a snapshot of the current processes |
+| `top` | display Linux processes |
+| `htop` | interactive process viewer |
+| `lsof` | list open files with pid |
 
 ps, top, htop, atop, lsof 
 * htop: top with scroll vertically and horizontally
@@ -33,6 +41,25 @@ ps, top, htop, atop, lsof
 
 ##### NETWORKING COMMANDS #####
 
+| Commands | Description |
+| --- | ---|
+| `nmap`| Network exploration tool and security / port scanner |
+| `tcpdump` | dumps all the network traffic |
+| `ping` | send ICMP ECHO_REQUEST to network hosts |
+| `mtr` | a.k.a My traceroute   a network diagnostic tool which combines the functionality of traceroute and ping |
+| `traceroute` | print the route packets trace to network host |
+| `airmon-ng` |  a bash script designed to turn wireless cards into monitor mode |
+| `airodump-ng` | a packet capture tool for aircrack-ng |
+| `aircrack-ng` | a 802.11 WEP / WPA-PSK key cracker works on airodump packets |
+| `reaver` | WPS Cracker |
+| `dig` |  a.k.a domain ingormation groper: DNS lookup utility |
+| `vmstat` | Report virtual memory statistics |
+| `strace` | trace system calls and signals |
+| `dtrace` | Dtrace compatible user application static probe generation tool. |
+| `iptables` | administration tool for IPv4/IPv6 packet filter‐ing and NAT |
+| `iostat` | Report  Central  Processing  Unit  (CPU)  statistics  and input/output statistics for devices and partitions.  |
+| `sar` | Collect, report, or save system activity information. |
+| `nmon` | Systems administrator, tuner, benchmark tool. |
 nmap, tcpdump, ping, mtr, traceroute, airmon, airodump, dig, iptables
 strace, dtrace, systemtap, uname, df
 
