@@ -60,8 +60,6 @@ ps, top, htop, atop, lsof
 | `iostat` | Report  Central  Processing  Unit  (CPU)  statistics  and input/output statistics for devices and partitions.  |
 | `sar` | Collect, report, or save system activity information. |
 | `nmon` | Systems administrator, tuner, benchmark tool. |
-nmap, tcpdump, ping, mtr, traceroute, airmon, airodump, dig, iptables
-strace, dtrace, systemtap, uname, df
 
 * strace: Strace is a utility that intercepts and logs these system calls. In this way, you can watch how a program interacts with the system, which is useful for tracking down behavioural issues. 
 * dtrace: 
